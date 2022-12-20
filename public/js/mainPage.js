@@ -199,9 +199,9 @@ function updateSettings(note_max_length, log_max_size) {
 
 
 
-webix.ready(function() {
     // Основной вшений вид
     webix.ui({
+        container: "mainConteiner",
         rows: [
             {
                 cols: [
@@ -625,5 +625,3 @@ webix.ready(function() {
     getEnvData();
 
     //#endregion
-
-});
